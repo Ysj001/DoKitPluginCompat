@@ -7,6 +7,8 @@
 - 官方插件依赖：io.github.didi.dokit:dokitx-plugin:3.7.1
 - 兼容插件依赖：com.github.Ysj001:DoKitPluginCompat:3.7.1-v1
 
+**注意！不要同时使用兼容插件和官方插件**
+
 
 
 ### Compile
