@@ -1,12 +1,17 @@
 ## DoKitPluginCompat
 
-[DoKit](https://github.com/didi/DoKit) 插件兼容高版本 AGP（8+） 的实现。
+由于 [DoKit](https://github.com/didi/DoKit) 插件在官方并不兼容 `AGP8+`，因此如果你想在高版本的 `AGP` 上使用 `DoKit` 可以使用本项目的兼容插件包。兼容插件包中对字节码的修改基于 [BCU](https://github.com/Ysj001/BytecodeUtil) 的 `IModifier` 接口，通过该接口的实现类来代理并驱动 `DoKit` 插件中的所有 `Transformer` 进而兼容原 `Dokit` 插件的功能。
+
+本兼容包的主版本和 DoKit 保持一致便于理解和使用，例子：
+
+- 官方插件依赖：io.github.didi.dokit:dokitx-plugin:3.7.1
+- 兼容插件依赖：com.github.Ysj001.DoKitPluginCompat:dokit-plugin-compat:3.7.1
 
 
 
 ### Compile
 
-工程结构如下
+如果你要编译本项目，可了解如下工程结构
 
 - `app` 用于演示
 - `buildSrc` 管理 maven 发布和版本控制项目统一配置
