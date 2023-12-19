@@ -5,7 +5,7 @@
 本兼容包的主版本和 DoKit 保持一致便于理解和使用，例子：
 
 - 官方插件依赖：io.github.didi.dokit:dokitx-plugin:3.7.1
-- 兼容插件依赖：com.github.Ysj001.DoKitPluginCompat:dokit-plugin-compat:3.7.1
+- 兼容插件依赖：com.github.Ysj001:DoKitPluginCompat:3.7.1-v1
 
 
 
@@ -42,7 +42,7 @@
            // BCU 插件依赖
            classpath("com.github.Ysj001.BytecodeUtil:plugin:<lastest-version>")
            // DoKitPluginCompat 依赖
-           classpath("com.github.Ysj001.DoKitPluginCompat:dokit-plugin-compat:<lastest-version>")
+           classpath("com.github.Ysj001:DoKitPluginCompat:<lastest-version>")
        }
    }
    
