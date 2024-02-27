@@ -57,6 +57,9 @@
 
 3. 在 `app` 模块的 `build.gradle.kts` 中的配置如下
 
+   - [kts 脚本写法例子点我](app/build.gradle.kts)
+   - [groovy 脚本写法例子点我](app/groovy_demo_build.gradle)
+
    ```kotlin
    plugins {
        id("com.android.application")
@@ -94,8 +97,6 @@
    }
    
    ```
-   
-4. 可参考 `app` 模块中的样例配置。
 
 
 
